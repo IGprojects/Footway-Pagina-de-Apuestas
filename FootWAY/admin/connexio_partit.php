@@ -1,9 +1,9 @@
 <?php
 //variables per el register.php
 $host = "localhost";
-$usuari = "Ignasi";
-$password = "Dam2020!";
-$bd_name = "travessa";
+$usuari = "username";
+$password = "password";
+$bd_name = "footway";
 $table_name_bs = "partit";
 
 
