@@ -1,0 +1,51 @@
+ 
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <!-- BOOSTRAP CCS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"  >
+        <!--JAVASCRIPTS BOOSTRAP-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!--favicon -->
+        <link rel="icon" type="image/png" href="assets/img/icons/icono.ico"/>
+    </head>
+    <body style="background-color: gray;">
+
+      
+
+        <div class="container h-100" >
+            <!--HEADER-->
+            <div class="d-flex justify-content-center">
+              <h1>Login</h1>
+            </div>
+            <!--CONTAINER FROMULARI-->
+            <div class="d-flex justify-content-center form_container">
+                 <!--FORMULARI  -->
+                <form action="assets/php/validateUser.php" method="POST" class ="needs-validation" >
+                    <!--email-->
+                    <div class="form-group">
+                        <label for="mail">Adreça de correu </label>
+                            <input  class="form-control" name="mail" type="email"  name="patata"  placeholder="Enter email" required>
+                    </div>
+              
+
+                    <!--PASSWORD-->
+                    <div class="form-group">
+                        <label for="contrassenya">Contrasenya </label>
+                        <input  class="form-control" name="contrassenya" type="password" id="contrassenya"  placeholder="Entra la Contrassenya" required>
+                        
+                    </div>
+                    <button type="submit" name="button" class="btn btn-dark"> Enviar Dades</button>
+                </form>
+            </div>
+
+        </div>
+
+
+
+    </body>
+</html>
