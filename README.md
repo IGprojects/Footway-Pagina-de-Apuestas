@@ -19,13 +19,13 @@ Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierda
 | ----- | ---- |
 |  admin@gmail.com | Dam2020! |
 
-### PAnel para ver los partidos:
+### PAnel para ver los partidos
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura4.png)
 
-### Crear Equipos:
+### Crear Equipos
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura5.png)
 
-### Crear Juagadores:
+### Crear Juagadores
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura6.png)
 
 ### Crear Partidos
@@ -43,11 +43,11 @@ Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierda
     -Ver los partidos (Finalizados/No finalizados)
     -Hacer Apuestas
     
-### Resumenes de los partidos:
+### Resumenes de los partidos
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura10.png)
 
-### Panel para ver tus apuestas:
+### Panel para ver tus apuestas
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura11.png)
 
-### Panel para hacer apuestas:
+### Panel para hacer apuestas
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura12.png)
