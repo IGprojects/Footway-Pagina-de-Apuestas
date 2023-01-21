@@ -135,7 +135,7 @@ $correu =  $_SESSION['usuari'] ;
     
 
 
-<div class="container" style="margin-top:30px">
+<div class="container" style="margin-top:30px; margin-left:500px;">
   <div class="row">
     <div class="col-sm-4">
       <h2>Footway</h2>
@@ -145,7 +145,7 @@ $correu =  $_SESSION['usuari'] ;
       <br>
       <br>
       <br>
-      <h3>Prova una mica de Sort</h3>
+      <!--<h3>Prova una mica de Sort</h3>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
           <a class="nav-link" href="MenuApostes.php">Fer Apostes</a>
@@ -154,7 +154,7 @@ $correu =  $_SESSION['usuari'] ;
           <a class="nav-link" href="apostesUsuari.php">Les Meves Apostes</a>
         </li>
       </ul>
-      <hr class="d-sm-none">
+      <hr class="d-sm-none">-->
     </div>
  
    

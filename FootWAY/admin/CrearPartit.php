@@ -1,4 +1,6 @@
 <?php
+require_once('../vendor/autoload.php');
+$dotenv=Dotenv\Dotenv::createImmutable(__DIR__. '/../')->load();
 session_start();
 if(!isset($_SESSION['admin']))
 {
@@ -108,11 +110,11 @@ $correuAdmin = $_SESSION['admin'];
                   <label for="id_equipLocal">Equip Local:</label>
             <select name="id_equipLocal" class="custom-select">
                     <?php
-                        $host = "localhost";
-                        $usuari = "Ignasi";
-                        $password = "Dam2020!";
-                        $bd_name = "travessa";
-                        $table_name_bs = "equip";
+                      $host =$_ENV["HOST"];
+                      $usuari = $_ENV["DB_USERNAME"];
+                      $password = $_ENV["DB_PASSWORD"];
+                      $bd_name = $_ENV["DB_NAME"];
+                      $table_name_bs = "equip";
 
 
                         $bd_connection = mysqli_connect($host,$usuari,$password,$bd_name);
@@ -142,10 +144,10 @@ $correuAdmin = $_SESSION['admin'];
                   <label for="id_equipVisitant">Equip Visitant:</label>
             <select name="id_equipVisitant" class="custom-select">
                     <?php
-                        $host = "localhost";
-                        $usuari = "Ignasi";
-                        $password = "Dam2020!";
-                        $bd_name = "travessa";
+                        $host =$_ENV["HOST"];
+                        $usuari = $_ENV["DB_USERNAME"];
+                        $password = $_ENV["DB_PASSWORD"];
+                        $bd_name = $_ENV["DB_NAME"];
                         $table_name_bs = "equip";
 
 
@@ -191,11 +193,11 @@ $correuAdmin = $_SESSION['admin'];
                   <label for="id_jornada">Jornada:</label>
             <select name="id_jornada" class="custom-select">
                     <?php
-                        $host = "localhost";
-                        $usuari = "Ignasi";
-                        $password = "Dam2020!";
-                        $bd_name = "travessa";
-                        $table_name_bs = "jornada";
+                         $host =$_ENV["HOST"];
+                         $usuari = $_ENV["DB_USERNAME"];
+                         $password = $_ENV["DB_PASSWORD"];
+                         $bd_name = $_ENV["DB_NAME"];
+                         $table_name_bs = "jornada";
 
 
                         $bd_connection = mysqli_connect($host,$usuari,$password,$bd_name);

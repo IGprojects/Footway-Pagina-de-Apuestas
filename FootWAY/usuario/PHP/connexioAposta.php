@@ -1,9 +1,11 @@
 <?php
+require_once(__DIR__.'/../../vendor/autoload.php');
+$dotenv=Dotenv\Dotenv::createImmutable(__DIR__. './../../')->load();
 //variables per el register.php
-$host = "localhost";
-$usuari = "Ignasi";
-$password = "password";
-$bd_name = "travessa";
+$host =$_ENV["HOST"];
+$usuari = $_ENV["DB_USERNAME"];
+$password = $_ENV["DB_PASSWORD"];
+$bd_name = $_ENV["DB_NAME"];
 $table_name_bs = "aposta";
 
 

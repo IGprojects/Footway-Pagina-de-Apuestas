@@ -89,6 +89,7 @@ $correuAdmin = $_SESSION['admin'];
   </thead>
   <tbody>
         <?php
+
           include 'php/connexio_equip.php';
                                      
                                 $sql = "SELECT res_local,res_vis,e1.nom_equip,e2.nom_equip,e3.dataInici,e3.dataFi FROM partit inner join equip e1 on partit.id_equipLocal=e1.id_equip inner join equip e2 on e2.id_equip=partit.id_equipVisitant inner join jornada e3 on partit.id_jornada=e3.id_jornada";

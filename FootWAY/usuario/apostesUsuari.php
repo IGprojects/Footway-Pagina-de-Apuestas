@@ -1,6 +1,7 @@
 <?php 
-  session_start();
- #echo $_SESSION['usuari'];
+require_once('../vendor/autoload.php');
+$dotenv=Dotenv\Dotenv::createImmutable(__DIR__. '/../')->load();
+session_start();
 
  if(!isset($_SESSION['usuari']))
  {
@@ -11,13 +12,7 @@
  
   $correuUsuari = $_SESSION['usuari'];
     include 'php/connexioAposta.php';
-    #include '../assets/php/connexioUsuari.php';
-    #include '../assets/php/validateUser.php';
-   #include '../login.html';
    include '../assets/php/connexioUsuari.php';
-
-
-   //$mail = "edpufa@inspalamos.cat"; 
 ?>
 
 <html lang="es">
@@ -101,10 +96,10 @@
   <tbody>
         <?php
         
-                                        $host = "localhost";
-                                        $usuari = "Ignasi";
-                                        $password = "Dam2020!";
-                                        $bd_name = "travessa";
+                                        $host =$_ENV["HOST"];
+                                        $usuari = $_ENV["DB_USERNAME"];
+                                        $password = $_ENV["DB_PASSWORD"];
+                                        $bd_name = $_ENV["DB_NAME"];
                                         $table_name_bs = "equip";
 
 

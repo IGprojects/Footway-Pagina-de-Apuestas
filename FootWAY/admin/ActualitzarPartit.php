@@ -1,4 +1,7 @@
 <?php
+require_once('../vendor/autoload.php');
+$dotenv=Dotenv\Dotenv::createImmutable(__DIR__. '/../')->load();
+
 session_start();
 if(!isset($_SESSION['admin']))
 {
@@ -114,10 +117,10 @@ $correuAdmin = $_SESSION['admin'];
             <select name="id_partit"  class="custom-select">
                     
 					<?php
-                        $host = "localhost";
-                        $usuari = "Ignasi";
-                        $password = "Dam2020!";
-                        $bd_name = "travessa";
+                        $host =$_ENV["HOST"];
+                        $usuari = $_ENV["DB_USERNAME"];
+                        $password = $_ENV["DB_PASSWORD"];
+                        $bd_name = $_ENV["DB_NAME"];
                         $table_name_bs = "partit";
 						 
 
