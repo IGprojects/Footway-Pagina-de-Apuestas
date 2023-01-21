@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Register</title>
+        <!-- BOOSTRAP CCS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!--JAVASCRIPTS BOOSTRAP-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <!--favicon -->
+         <link rel="icon" type="image/png" href="assets/img/icons/icono.ico"/>
+    </head>
+    <body style="background-color: gray;">
+
+      
+
+        <div class="container h-100" >
+            <!--HEADER-->
+            <div class="d-flex justify-content-center">
+              <h1>Register</h1>
+            </div>
+            <!--CONTAINER FROMULARI-->
+            <div class="d-flex justify-content-center form_container">
+                 <!--FORMULARI  -->
+                <form action="assets/php/register.php" method="POST" class ="needs-validation"> 
+                    <!--nom-->
+                    <div class="form-group">
+                        <label for="name"> Nom </label>
+                        <input  class="form-control" type="text" id="nom_usuari" name="nom_usuari"  placeholder="Entra el teu nom" required>
+                    </div>
+                    <!--edat-->
+                    <div class="form-group">
+                        <label for="data_naix"> Data Naixament </label>
+                        <input  class="form-control" type="date" id="data_naix" name ="data_naix"  placeholder="Entra la teva edat">
+                    </div>
+     
+                    <!--email-->
+                    <div class="form-group">
+                        <label for="mail">Adreça de correu </label>
+                        <input  class="form-control" type="email" id="mail" name ="mail" placeholder="Enter email" required>
+                    </div>
+                    <!--PASSWORD-->
+                    <div class="form-group">
+                        <label for="contrassenya">Contrassenya </label>
+                        <input  class="form-control" name="contrassenya" type="password" id="contrassenya"  placeholder="Entra la Contrassenya" required>
+                        
+                    </div>
+                    <button type="submit" name="button" class="btn btn-dark"> Enviar Dades</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
