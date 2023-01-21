@@ -7,7 +7,7 @@ Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierda
 ## Panel de Administrador
 
 ### Funciones del administrador:
-    -Ver los parrtidos (Finalizados/No finalizados)
+    -Ver los partidos (Finalizados/No finalizados)
     -Crear Equipos
     -Crear Juagadores
     -Crear Partidos
@@ -19,11 +19,22 @@ Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierda
 | ----- | ---- |
 |  admin@gmail.com | Dam2020! |
 
+### PAnel para ver los partidos:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura4.png)
+
+### Crear Equipos:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura5.png)
+
+### Crear Juagadores:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura6.png)
+
+### Crear Partidos
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura7.png)
+
+### Crear Jornadas
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura8.png)
+
+### Actualizar los resultados de los partidos
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura9.png)
 
 
@@ -31,7 +42,12 @@ Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierda
 ### Funciones del administrador:
     -Ver los partidos (Finalizados/No finalizados)
     -Hacer Apuestas
-
+    
+### Resumenes de los partidos:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura10.png)
+
+### Panel para ver tus apuestas:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura11.png)
+
+### Panel para hacer apuestas:
 ![image](https://github.com/IGprojects/Footway-Pagina-de-Apuestas/blob/main/Assets/Captura12.png)
