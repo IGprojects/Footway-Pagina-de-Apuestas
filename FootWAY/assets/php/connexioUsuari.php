@@ -1,8 +1,8 @@
 <?php
 //variables per el register.php
 $host = "localhost";
-$usuari = "footway";
-$password = "DAM2020!";
+$usuari = "username";
+$password = "password";
 $bd_name = "footway";
 $table_name_bs = "usuari";
 
