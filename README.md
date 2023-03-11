@@ -1,5 +1,14 @@
-# Footway - Página de Apuestas
+# Footway · Página de apuestas
 Página donde podrás apostar a tus equipos de futbol favoritos no té lo pierdas y apuesta ya!
+
+## Tecnologías Usadas
+  - PHP
+  - HTML
+  - CSS
+  - JS
+  - MYSQL
+  - VISUAL STUDIO IDE
+
 
 ## Dependencias
 `composer require vlucas/phpdotenv`
